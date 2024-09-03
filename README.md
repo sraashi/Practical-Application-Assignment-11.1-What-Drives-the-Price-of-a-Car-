@@ -13,7 +13,11 @@ With the linear regression model, the Test MSE was high. The model score was 0.4
 With linear regression with polynomial features, the model score was higher, 0.65 with the condition of the car being new, fuel type diesel and drive as rwd being most important for the price
 With Ridge regression using GridsearchCV, the R2 score was lower - 0.45
 
+
+
 Findings:
+There are two jupyter files linked here - one is an analysis done with selectively dropping null value columns, another is with all null values dropped over the entire dataset which results in a smaller dataset to start with and yields different results. Thus, data exploration is key to this analysis as well. 
+
 While this is not an extensive analysis, it indicates that the condition of the car being new or like new, the transmission type and the fuel type have a big impact on the price of the car. Some other factors like color, state possibly could have an effect and they could be further evaluated. 
 Dealerships should pay attention to these features while determining price of car. 
 
@@ -24,13 +28,14 @@ Aim:
 The objective was to identify key factors that affect the price of used cars. The process was to build data using a dataset and help identify the main factors that affect price to the dealership
 
 Methodology: 
-I started with exploring the dataset for distribution of null values. It seems that removing all the null values would have resulted in fewer rows than removing the column that had the most % of null values ('size') and then removing any rows that had null values. I also removed any columns with unique identifiers for each car. 
+I started with exploring the dataset for distribution of null values. It seems that removing all the null values would have resulted in fewer rows (34868 rows) than removing the column that had the most % of null values ('size') and then removing any rows that had null values (resulting in over 100000 rows). I also removed any columns with unique identifiers for each car. This analysis indicates that data exploration and prep is a key step in modeling as well. 
 
 
 After getting the dataset to train/test, built different models (linear regression with polynomial features, ridge regression with Gridsearch) to evalute the model with the highest R2 score and coefficients that most impacted the price prediction. 
 
 Findings and recommendations: 
-It seems that the condition of the car (new or like new), fuel and transmission most importantly affected the price of the car.
+It seems that the condition of the car (new or like new), fuel and transmission most importantly affected the price of the car. 
+
 
 
 
