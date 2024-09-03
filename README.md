@@ -1,7 +1,8 @@
 # Practical-Application-Assignment-11.1-What-Drives-the-Price-of-a-Car-
 Building a model on used cars dataset to predict the variables that affect price of the car using the CRISP-DM approach
 
-Link to main Jupyter notebook: https://github.com/sraashi/Practical-Application-Assignment-11.1-What-Drives-the-Price-of-a-Car-/tree/main
+Link to main Jupyter notebook: [https://github.com/sraashi/Practical-Application-Assignment-11.1-What-Drives-the-Price-of-a-Car-/tree/main](https://github.com/sraashi/Practical-Application-Assignment-11.1-What-Drives-the-Price-of-a-Car-/blob/main/Practical%20Assignment%2011.1%20-%20Car%20pricing.ipynb)
+
 
 
 Steps:
