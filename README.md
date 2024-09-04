@@ -20,7 +20,7 @@ With Ridge regression using GridsearchCV, the R2 score was lower - 0.45
 
 
 Findings:
-This is a second jupyter notebook with a differing data preparation/exploration method. 
+There are two jupyter notebooks with differing data preparation/exploration methods. 
 The first one is an analysis done with selectively dropping null value columns, another is with all null values dropped over the entire dataset which results in a smaller dataset to start with and yields different results. Thus, data exploration is key to this analysis as well. 
 
 While this is not an extensive analysis, it indicates that the condition of the car being new or like new, the transmission type and the fuel type have a big impact on the price of the car. Some other factors like color, state possibly could have an effect and they could be further evaluated. 
