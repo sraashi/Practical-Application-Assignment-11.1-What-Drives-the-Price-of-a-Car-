@@ -1,8 +1,10 @@
 # Practical-Application-Assignment-11.1-What-Drives-the-Price-of-a-Car-
 Building a model on used cars dataset to predict the variables that affect price of the car using the CRISP-DM approach
 
-Link to main Jupyter notebook: [https://github.com/sraashi/Practical-Application-Assignment-11.1-What-Drives-the-Price-of-a-Car-/tree/main](https://github.com/sraashi/Practical-Application-Assignment-11.1-What-Drives-the-Price-of-a-Car-/blob/main/Practical%20Assignment%2011.1%20-%20Car%20pricing.ipynb)
+Link to main Jupyter notebook: [[https://github.com/sraashi/Practical-Application-Assignment-11.1-What-Drives-the-Price-of-a-Car-/tree/main](https://github.com/sraashi/Practical-Application-Assignment-11.1-What-Drives-the-Price-of-a-Car-/blob/main/Practical%20Assignment%2011.1%20-%20Car%20pricing.ipynb)](https://github.com/sraashi/Practical-Application-Assignment-11.1-What-Drives-the-Price-of-a-Car-/blob/main/Practical%20Assignment%2011.1%20-%20Car%20pricing.ipynb)
 
+Link to jupyter notebook with alternative approach of data exploration dropping all null value rows: 
+https://github.com/sraashi/Practical-Application-Assignment-11.1-What-Drives-the-Price-of-a-Car-/blob/main/Practical%20Assignment%2011.1%20-%20Car%20pricing%20-%20dropping%20all%20null%20rows%20without%20examining%20data.ipynb
 
 
 Steps:
